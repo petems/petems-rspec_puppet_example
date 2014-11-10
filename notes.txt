@@ -1,0 +1,59 @@
+NOTES
+For if you're not using forge.
+For if you havent used rspec (some people expect you to have used and be familiar with Rspec)
+
+
+Start off with basic rspec testing
+
+
+2. describe
+3. language ???
+4. it..do 
+5. should contain_class
+6. should contain_class().with
+7. populate with with variables
+5. context
+6. let(:params)
+7. before each
+8. @
+9. x.should_receive vs allow
+10. == vs eq
+
+
+
+
+quote marks are necessary
+
+if stdlib or other gems are required, a .fixtures.yml file can point to a local copy of it (preventing the need to git clone on each run)
+
+puppetlabs-rspec helper
+
+why use the ":type" thing?
+describe 'repos', :type => 'class' do ??????????????
+
+
+=====
+MEETING WITH PETE
+Oct 30th
+=====
+Ask people to pull down the repo which will contain empty tests. this will prove that Rspec is working on their machine.
+
+repo will contain;
+package
+service
+file
+file with content
+empty tests
+
+Practicals to do on the night.
+
+1. 5 mins talk about spec helper, describe, it & do, context
+
+2. filling out basic test for a file
+3. filling out basic test for package & service
+4. file contents for files
+5. relationships (before, after etc) 
+6. defines
+7. each loops
+
+8. coverage and compile.with_all_deps
